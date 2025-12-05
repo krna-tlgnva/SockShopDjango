@@ -1,0 +1,47 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---- Virtual environments ----
+venv/
+env/
+.myenv/
+
+# ---- Environment files ----
+.env
+*/.env
+.env.*
+*/.env.*
+
+# ---- SQLite DB ----
+*.sqlite3
+*.db
+
+# ---- Django stuff ----
+staticfiles/
+media/
+*.log
+logs/
+
+# ---- VSCode ----
+.vscode/
+
+# ---- System files ----
+.DS_Store
+Thumbs.db
+
+# ---- Migrations cache ----
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# ---- PyTest / Coverage ----
+.coverage
+htmlcov/
+pytest_cache/
+
+# ---- Build / Dist ----
+build/
+dist/
+*.egg-info/
